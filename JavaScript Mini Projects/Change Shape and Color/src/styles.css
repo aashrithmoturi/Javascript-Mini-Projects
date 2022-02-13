@@ -1,0 +1,53 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+
+#app{
+  position: relative;
+  margin: auto;
+  width : 200px;
+  height : 200px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+button{
+  margin-left: 45%;
+  margin-top: 15px;
+  width: 150px;
+}
+
+#inner{
+  position : absolute;
+  margin: 30%;
+  width : 75px;
+  height : 75px;
+  background-color: blue;
+}
+
+#triangle{
+  position : absolute;
+  margin: 25%;
+  width: 0;
+  height: 0;
+  /* border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid greenyellow; */
+
+  border-left: 100px solid greenyellow;
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+  
+}
+
+#circle {
+  position : absolute;
+  margin: 25%;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(73, 73, 131);
+  border-radius: 50%
+}
+
